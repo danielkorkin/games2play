@@ -1,0 +1,27 @@
+/* Example: in globals.css or a separate file you import somewhere */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.animate-fadeIn {
+	animation: fadeIn 1s ease forwards;
+}
+
+/* A “neon glow” drop shadow class to amplify headings */
+.drop-shadow-neon {
+	text-shadow:
+		0 0 5px rgba(255, 255, 255, 0.7),
+		0 0 10px rgba(255, 255, 0, 0.5),
+		0 0 20px rgba(255, 255, 0, 0.4);
+}
