@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-	title: "My Trends Game",
-	description: "A Next.js Google Trends guessing game",
+	title: "Games2Play",
+	description: "Different online fun games",
 };
 
 export default function RootLayout({
