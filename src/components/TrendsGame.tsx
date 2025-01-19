@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 export default function TrendsGame() {
 	const [words, setWords] = useState<string[]>([]);
 	const [correctWord, setCorrectWord] = useState<string>("");
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	const [wrongWord, setWrongWord] = useState<string>("");
 	const [score, setScore] = useState<number>(0);
 	const [highScore, setHighScore] = useState<number>(0);
@@ -42,6 +43,7 @@ export default function TrendsGame() {
 		if (wordList.length < 2) {
 			throw new Error("Need at least two words to play");
 		}
+		// eslint-disable-next-line prefer-const
 		let idx1 = Math.floor(Math.random() * wordList.length);
 		let idx2 = Math.floor(Math.random() * wordList.length);
 		while (idx2 === idx1) {
@@ -170,6 +172,7 @@ export default function TrendsGame() {
 				{/* SVG from /api/trends/svg?keyword=... */}
 				<div className="bg-white rounded-md p-2 shadow-inner max-w-4xl w-full sm:w-3/4 md:w-2/3 lg:w-1/2">
 					{correctWord && (
+						// eslint-disable-next-line @next/next/no-img-element
 						<img
 							src={`/api/trends/svg?keyword=${encodeURIComponent(
 								correctWord,

@@ -6,6 +6,14 @@ import googleTrends from "google-trends-api-429-fix";
 const WIDTH = 800;
 const HEIGHT = 400;
 
+interface TrendsResponse {
+	default: {
+		timelineData: Array<{
+			value: number[];
+		}>;
+	};
+}
+
 export async function GET(request: NextRequest) {
 	try {
 		const { searchParams } = new URL(request.url);
@@ -26,7 +34,7 @@ export async function GET(request: NextRequest) {
 				startTime: new Date("2004-01-01"),
 				geo: "", // worldwide
 			});
-		} catch (fetchError: any) {
+		} catch (fetchError: unknown) {
 			console.error("Failed to fetch Google Trends data:", fetchError);
 			return NextResponse.json(
 				{ error: "Error fetching data from Google Trends API" },
@@ -48,7 +56,7 @@ export async function GET(request: NextRequest) {
 		}
 
 		// 2) Parse results - google-trends-api returns a stringified JSON
-		let parsedResults: any;
+		let parsedResults: TrendsResponse;
 		try {
 			parsedResults = JSON.parse(results);
 		} catch (parseError) {
@@ -76,7 +84,7 @@ export async function GET(request: NextRequest) {
 
 		// Extract numeric values
 		const values: number[] = timelineData.map(
-			(item: any) => item.value?.[0] ?? 0,
+			(item: { value: number[] }) => item.value?.[0] ?? 0,
 		);
 
 		// 3) Scale data to fit the 800x400
@@ -119,8 +127,8 @@ export async function GET(request: NextRequest) {
 				"Cache-Control": "no-store", // or any other policy you want
 			},
 		});
-	} catch (error: any) {
+	} catch (error: unknown) {
 		console.error("SVG Route Error:", error);
-		return NextResponse.json({ error: error.message }, { status: 500 });
+		return NextResponse.json({ error: error instanceof Error ? error.message : 'Unknown error' }, { status: 500 });
 	}
 }
