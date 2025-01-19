@@ -15,7 +15,10 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className="bg-gray-100 text-gray-900">{children}</body>
-			<Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
+			<Script
+				src="https://scripts.simpleanalyticscdn.com/latest.js"
+				data-collect-dnt="true"
+			/>
 		</html>
 	);
 }
