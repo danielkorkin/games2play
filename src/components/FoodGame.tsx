@@ -66,6 +66,7 @@ export default function FoodGame() {
 		if (list.length < 2) {
 			throw new Error("Need at least two items to play!");
 		}
+		// eslint-disable-next-line prefer-const
 		let idx1 = Math.floor(Math.random() * list.length);
 		let idx2 = Math.floor(Math.random() * list.length);
 		while (idx2 === idx1) {
@@ -100,6 +101,7 @@ export default function FoodGame() {
 				rawScore = 50;
 			}
 			// We assume 0..100 is valid, clamp if needed
+			// eslint-disable-next-line prefer-const
 			let ecoScore = Math.max(0, Math.min(100, rawScore));
 			return ecoScore;
 		} catch (error) {
