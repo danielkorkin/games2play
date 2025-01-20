@@ -23,18 +23,21 @@ export async function POST(request: NextRequest) {
 		});
 
 		// results is a string; parse it
-        const parsedResults = JSON.parse(results);
+		const parsedResults = JSON.parse(results);
 
-        // We'll send back just the timeline data for simplicity
-        return NextResponse.json({
-            timelineData: parsedResults.default.timelineData || [],
-        });
-    } catch (error: unknown) {
-        console.error("API error:", error);
-        // Type guard to check if error is Error instance
-        if (error instanceof Error) {
-            return NextResponse.json({ error: error.message }, { status: 500 });
-        }
-        return NextResponse.json({ error: 'An unknown error occurred' }, { status: 500 });
-    }
+		// We'll send back just the timeline data for simplicity
+		return NextResponse.json({
+			timelineData: parsedResults.default.timelineData || [],
+		});
+	} catch (error: unknown) {
+		console.error("API error:", error);
+		// Type guard to check if error is Error instance
+		if (error instanceof Error) {
+			return NextResponse.json({ error: error.message }, { status: 500 });
+		}
+		return NextResponse.json(
+			{ error: "An unknown error occurred" },
+			{ status: 500 },
+		);
+	}
 }

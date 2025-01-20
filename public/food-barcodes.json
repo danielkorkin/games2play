@@ -14,82 +14,82 @@
 		"name": "Doritos Nacho Cheese (2.5 oz)",
 		"imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTxWWkGYxQUUuiNsSWr0XNolPTKzrvdTRxDaLSq8aBE3ZWxdp8FCf_O4LeewMV4eeYEgpZI5VBt9DCNcgIftryWnT560n0Xd-j2WK1Cz1TDwsh7XPmQ2Pi_"
 	},
-    {
-        "barcode": "028400090858",
-        "name": "Lay's Classic Potato Chips (1 oz)",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTbUmhiqgs4juU8Uf35fHaEfWhGXF-ph5eyZwYjSKZsYR_mYQrFH73wfpp_dhljkdvBF98zZnaeGUA3UjaT8tSTnQbuL5OlFTRZ8lE1yGzNfhEl3O97zrADOQ"
-    },
-    {
+	{
+		"barcode": "028400090858",
+		"name": "Lay's Classic Potato Chips (1 oz)",
+		"imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTbUmhiqgs4juU8Uf35fHaEfWhGXF-ph5eyZwYjSKZsYR_mYQrFH73wfpp_dhljkdvBF98zZnaeGUA3UjaT8tSTnQbuL5OlFTRZ8lE1yGzNfhEl3O97zrADOQ"
+	},
+	{
 		"barcode": "040000424314",
 		"name": "SNICKERS Singles Size",
 		"imageUrl": "https://www.snickers.com/cdn-cgi/image/width=600,height=600,f=auto,quality=90/sites/g/files/fnmzdf616/files/migrate-product-files/dryeqrv2efldaaoyceat.png"
 	},
-    {
+	{
 		"barcode": "028400314091",
 		"name": "Cheetos Crunchy Party Size",
 		"imageUrl": "https://i5.walmartimages.com/seo/Cheetos-Crunchy-Cheese-Puff-Chips-15-oz-Bag_87b44cb4-7c7b-432b-b873-e572fe4c3c87.ffe4adfe952e0b92d38a514e621ca60a.jpeg"
 	},
-    {
+	{
 		"barcode": "611269818994",
 		"name": "Red Bull Energy Drink",
 		"imageUrl": "https://i5.walmartimages.com/seo/Red-Bull-Energy-Drink-12-fl-oz_cc297042-66be-4db1-9ff0-e626f6c43322.d5c5ca669d0978adca72bf0c7504e6ed.jpeg"
 	},
-    {
+	{
 		"barcode": "070847811169",
 		"name": "Monster Energy Original",
 		"imageUrl": "https://i5.walmartimages.com/seo/Monster-Energy-Drink-16-fl-oz_cb7a67ae-366d-4234-8e23-656db9bb3b58.9a57934b5b40ba1a1ef3e59ad092fc3e.png"
 	},
-    {
+	{
 		"barcode": "037600223324",
 		"name": "SKIPPY Creamy Peanut Butter",
 		"imageUrl": "https://theloadedkitchen.com/ami/wp-content/uploads/sites/3/2022/01/large_7c6ec30e-af8c-49cc-86c9-281c6e36a2ce.jpg"
 	},
-    {
+	{
 		"barcode": "043695071115",
 		"name": "Hot Pockets Pepperoni Pizza Sandwiches",
 		"imageUrl": "https://www.goodnes.com/sites/g/files/jgfbjl321/files/styles/gdn_hero_pdp_product_image/public/gdn_product/field_product_images/hotpockets-fc6c643a17b1bdfc96bae7ccb211317d648e49a6.png.webp"
 	},
-    {
+	{
 		"barcode": "5060251411159",
 		"name": "Hostess Twinkies",
 		"imageUrl": "https://i5.walmartimages.com/seo/HOSTESS-TWINKIES-Creamy-Golden-Sponge-Cake-Individually-Wrapped-10-Count-13-58-oz_816f683d-8c4a-4b6f-ac44-06035709b17b.378dd2d12f16783fd6da551e1197a752.jpeg"
 	},
-    {
+	{
 		"barcode": "038000199042",
 		"name": "Frosted Flakes",
 		"imageUrl": "https://thepantrysa.com/cdn/shop/products/flakes.frosted_700x700.png"
 	},
-    {
+	{
 		"barcode": "829515387044",
 		"name": "Sea Salt Garden Veggie Straws",
 		"imageUrl": "https://m.media-amazon.com/images/I/51Lw8os9WjL.jpg"
 	},
-    {
+	{
 		"barcode": "014100096566",
 		"name": "Goldfish Colors",
 		"imageUrl": "https://i5.walmartimages.com/asr/d152fc5c-518c-4b6f-a0f5-6cea7c0be26f.438901be4844844b9f535678a796af4e.jpeg"
 	},
-    {
+	{
 		"barcode": "028400240185",
 		"name": "Funyuns Original",
 		"imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSsV3LXYGBXD-Fzf33msKVrJWn2E34kCMaGVXZA25i3H5_ZWpv9W7tx3hxkPNYWjzfBTO0G8uMHoFgu4ZalaVa7kVSWJb6vlWanotDmHvNdZqRjThCR9fny8A"
 	},
-    {
+	{
 		"barcode": "028400517744",
 		"name": "Ruffles Sour Cream & Cheddar (Party Size)",
 		"imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRwL4ihkYXGFHKPHBGamp_q1JRozcpyQ-YHdwZIsAWq-FYBmdFRIYqxqMLzSTTP6UU9FssUJB8yQX5m1mt_JpZ4_ecL9SQ7Z40LJ5PGdvZxTbqAT732Yb9RsA"
 	},
-    {
+	{
 		"barcode": "022000279705",
 		"name": "Skittles Original (Share Size)",
 		"imageUrl": "https://s7d9.scene7.com/is/image/dollargeneral/dg-23744201-1"
 	},
-    {
+	{
 		"barcode": "038000402906",
 		"name": "Eggo Waffles (Buttermilk)",
 		"imageUrl": "https://images.kglobalservices.com/www.leggomyeggo.com/en_us/product/product_4821893/kicproductimage-123235_bm-waffles2023.png"
 	},
-    {
+	{
 		"barcode": "013409918104",
 		"name": "Sweet Baby Ray’s Barbecue Sauce",
 		"imageUrl": "https://m.media-amazon.com/images/I/61IwBp-8b6L.jpg"

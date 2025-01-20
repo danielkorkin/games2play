@@ -129,6 +129,9 @@ export async function GET(request: NextRequest) {
 		});
 	} catch (error: unknown) {
 		console.error("SVG Route Error:", error);
-		return NextResponse.json({ error: error instanceof Error ? error.message : 'Unknown error' }, { status: 500 });
+		return NextResponse.json(
+			{ error: error instanceof Error ? error.message : "Unknown error" },
+			{ status: 500 },
+		);
 	}
 }

@@ -61,7 +61,7 @@ export default function FoodGame() {
 
 	// Utility to pick 2 distinct items
 	function pickTwoDistinctItems(
-		list: LocalProduct[]
+		list: LocalProduct[],
 	): [LocalProduct, LocalProduct] {
 		if (list.length < 2) {
 			throw new Error("Need at least two items to play!");
@@ -87,7 +87,7 @@ export default function FoodGame() {
 					headers: {
 						"User-Agent": userAgent,
 					},
-				}
+				},
 			);
 			const data = await res.json();
 			if (!data || data.status !== 1 || !data.product) {
@@ -225,12 +225,12 @@ export default function FoodGame() {
 		<div className="min-h-screen bg-gray-50 flex flex-col items-center p-6 animate-fadeIn">
 			{/* Scoreboard */}
 			<div className="mb-4 text-center">
-                <h1 className="text-3xl font-bold text-gray-700 mb-2">
-                    Food Guessing Game
-                </h1>
-                <p className="text-sm text-gray-500 mb-4">
-                    Guess the healthier food!
-                </p>
+				<h1 className="text-3xl font-bold text-gray-700 mb-2">
+					Food Guessing Game
+				</h1>
+				<p className="text-sm text-gray-500 mb-4">
+					Guess the healthier food!
+				</p>
 				<p className="text-gray-600">
 					Score: {score} | High Score: {highScore}
 				</p>
